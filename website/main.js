@@ -17,12 +17,12 @@ class TechVisionWebsite {
   async loadComponents() {
     try {
       // Load Header
-      const headerResponse = await fetch('components/header.html');
+      const headerResponse = await fetch('header.html');
       const headerHTML = await headerResponse.text();
       document.getElementById('header-placeholder').innerHTML = headerHTML;
 
       // Load Footer
-      const footerResponse = await fetch('components/footer.html');
+      const footerResponse = await fetch('footer.html');
       const footerHTML = await footerResponse.text();
       document.getElementById('footer-placeholder').innerHTML = footerHTML;
 
@@ -323,3 +323,6 @@ class ProjectsPage {
 document.addEventListener('DOMContentLoaded', () => {
   new ProjectsPage();
 });
+
+
+ 
