@@ -289,7 +289,7 @@ class SearchComponent {
       { title: 'Cybersecurity Services', url: 'services.html#cybersecurity' },
       { title: 'AI & Machine Learning', url: 'services.html#ai' },
       { title: 'Cloud Computing', url: 'services.html#cloud' },
-      { title: 'About TechVision', url: 'about.html' },
+      { title: 'About Qubisafe Private Limited', url: 'about.html' },
       { title: 'Contact Us', url: 'contact.html' }
     ];
 
