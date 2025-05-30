@@ -550,6 +550,42 @@ html {
 }
 
 
+
+/* about section leadership team images */
+/* Team Photo Styling */
+.team-photo-container {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 0 auto 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: var(--shadow-light);
+  overflow: hidden;
+  position: relative;
+  transition: var(--transition);
+  padding: 3px; /* Creates border effect with gradient background */
+}
+
+.team-photo-container:hover {
+  transform: scale(1.05);
+  box-shadow: var(--shadow-heavy);
+}
+
+.team-photo {
+  width: calc(100% - 6px);
+  height: calc(100% - 6px);
+  object-fit: cover;
+  border-radius: 50%;
+  transition: var(--transition);
+}
+
+.team-photo-container:hover .team-photo {
+  transform: scale(1.1);
+}
+
+
 /*  */
 
 /* Project Page Specific Styles */
